@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PentaMate</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="header">
+    <img src="icons/icon-80.png" alt="Icon" />
+    <span class="header-title">PentaMate Form Inspector</span>
+  </div>
+
+  <h3>Review Form Submission</h3>
+
+  <p><strong>Action URL:</strong></p>
+  <p id="formAction">Loading...</p>
+
+  <p><strong>Method:</strong></p>
+  <p id="formMethod">Loading...</p>
+
+  <p><strong>Form Data:</strong></p>
+  <div id="formValues" class="form-values">Loading...</div>
+
+  <p><strong>AI Result:</strong></p>
+  <div class="ai-result" id="aiResult">Analyzing...</div>
+
+  <button class="continue-btn" id="submitBtn">Submit</button>
+  <button class="cancel-btn" id="cancelBtn">Cancel</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>

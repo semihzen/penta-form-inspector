@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Form Inspector",
+  "version": "1.0",
+  "description": "Displays form action URL and submitted data before the form is sent.",
+  "permissions": ["tabs", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["popup.html", "popup.js", "popup.css"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "icons": {
+    "48": "icons/icon.png"
+  }
+}
