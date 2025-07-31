@@ -7,7 +7,7 @@ This is a custom form inspector extension developed using Node.js. Its main purp
 
 ---
 
-## ✅ Key Features
+##  Key Features
 
 - Intercepts HTML form submissions in real time  
 - Displays full form content including `action`, `method`, and form data  
