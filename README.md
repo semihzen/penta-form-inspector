@@ -1,4 +1,4 @@
-# PentaMate Form Interceptor Extension (with Gemini AI Integration)
+# PentaMate Form Inspector Extension (with Gemini AI Integration)
 
 ![WhatsApp Görsel 2025-07-31 saat 18 11 22_cca53669](https://github.com/user-attachments/assets/5f96f54e-d023-4415-8ebe-95ac0cfca0af)
 
