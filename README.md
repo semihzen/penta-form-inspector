@@ -33,11 +33,40 @@ The extension uses **Gemini AI** to analyze the URL to which the form is being s
 | Chrome Extensions API| Used to capture form submission           |
 
 ---
-
-##  Setup Instructions
+## ⚙️ Setup Instructions
 
 ### 1. Clone the repository:
 
-```bash
+```
 git clone https://github.com/semihzen/form-interceptor.git
 cd form-interceptor
+```
+
+### 2. Install dependencies:
+
+```
+npm install
+```
+
+### 3. Add your Gemini API key in a `.env` file:
+
+```
+GEMINI_API_KEY=your_api_key_here
+```
+
+### 4. Start the server:
+
+```
+npm run start
+```
+
+### 5. Side-load the `manifest.json` in Chrome for testing:
+
+- Open `chrome://extensions/`
+- Enable **Developer Mode**
+- Click **Load Unpacked**
+- Select the extension root directory
+
+
+
+
